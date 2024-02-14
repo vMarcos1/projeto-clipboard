@@ -1,0 +1,336 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    min-width: 100vw;
+    min-height: 100vh;
+
+    
+
+    font-family: 'bairegular';
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.cabecalho {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    text-align: justify;
+
+    background: url(../images/bg-header-desktop.png) no-repeat top center;
+    background-size: contain;
+
+}
+
+.cabecalho .img-logo{
+
+    height: 100px;
+    width: 100px;
+
+    margin: 100px 0px 40px 0px;
+
+    background: url(../images/logo.svg) no-repeat center center;
+    background-size: cover;
+
+
+   
+}
+
+.cabecalho .titulo {
+    font-family: 'baibold';
+    font-weight: bold;
+    font-size: 32px;
+    padding: 10px;
+
+}
+
+.cabecalho p {
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
+    font-family: 'bailight';
+    
+}
+
+.cabecalho .botoes {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 100px;
+
+
+}
+
+  .botoes .ios {
+    width: 180px;
+    padding: 10px 15px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #428f83;
+    box-shadow: 1px 1px 1px black;
+    background-color: #2CB8A6;
+    color: #fff;
+    font-weight: bold;
+    
+    cursor: pointer;
+
+}
+
+.botoes .ios:hover {
+    background-color: #428f83;
+
+}
+
+.botoes .mac {
+    width: 180px;
+    padding: 10px 15px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #434fad;
+    background-color: #6173FF;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+
+}
+
+.botoes .mac:hover {
+    background-color: #434fad;
+}
+
+.conteiner  {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+
+}
+
+.conteiner p {
+    font-size: 14px;
+    font-family: 'bailight';
+    padding: 10px 0px;
+    margin-bottom: 40px;
+    
+
+}
+
+.conteiner .informacoes {
+    
+    gap: 80px;
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    flex-direction: row 
+    ;
+    margin:  0px auto 80px auto;
+    
+}
+.informacoes .info-monitor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+   
+    
+   text-align: left;
+  
+   
+    
+}
+
+.conteiner .informacoes .img-monitor {
+    background: url(../images/image-computer.png) no-repeat left center ;
+    background-size: contain;
+    height: 100%;
+    width: 1000px; 
+    
+   
+}
+
+.conteiner .img-celular {
+    background: url(../images/image-devices.png) no-repeat center center ;
+    background-size: contain;
+    
+    
+    width: 70vw;
+    height: 600px;
+    margin: auto;
+}
+
+.conteiner .extras {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.conteiner .extras .icon-extra {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+    height: 200px;
+}
+
+.conteiner .extras .icon-extra img {
+    height: 35px;
+}
+
+.conteiner .marcas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  40px auto;
+
+}
+
+.conteiner .marcas ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 40px;
+    padding: 10px;
+    
+    
+  
+    
+}
+
+.conteiner .marcas ul li {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px;
+    
+    
+    
+    
+   
+}
+
+.conteiner .marcas ul li img {
+    width: 100px;
+
+   
+}
+
+.conteiner .botoes {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    margin-bottom: 100px;
+
+}
+
+.rodape {
+    background-color: whitesmoke;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    
+    align-items: center;
+    width: 100vw;
+   padding: 10px;
+    
+
+
+}
+.rodape .conteudo {
+    
+    display: flex;
+    flex-direction: row;
+    
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 40%;
+    margin: auto;
+}
+
+.rodape .conteudo ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    list-style: none;
+
+    width: 50%;
+    
+}
+
+.rodape .conteudo ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.rodape .conteudo ul li a:hover {
+    color: green;
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+.rodape .logo {
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    margin: 60px;
+
+}
+
+.rodape .icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.rodape .icons img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

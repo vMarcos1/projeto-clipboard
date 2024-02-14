@@ -1,0 +1,62 @@
+@media screen and (max-width: 678px) {
+    .conteiner {
+        justify-content: center;
+        align-items: center;
+       
+
+    }
+    .conteiner .informacoes {
+        flex-direction: column;
+        width: 80%;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px auto;
+        
+
+        
+    }
+
+    .conteiner .informacoes .img-monitor {
+        text-align: center;
+        background-position: center center;
+        width: 100%;
+    }
+
+    .conteiner .informacoes .info-monitor {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 414px) {
+    
+
+
+    .cabecalho {
+        text-align: center;
+    }
+
+     .botoes {
+        flex-direction: column;
+    }
+
+    .rodape .conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+    }
+
+    .rodape .conteudo ul {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    
+
+    
+}

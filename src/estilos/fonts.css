@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'baibold';
+    src: url(../fonts/BaiJamjuree-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'bairegular';
+    src: url(../fonts/BaiJamjuree-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'bailight';
+    src: url(../fonts/BaiJamjuree-ExtraLight.ttf);
+}
